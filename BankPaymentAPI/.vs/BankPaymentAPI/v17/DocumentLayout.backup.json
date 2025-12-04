@@ -1,0 +1,562 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\bankpaymentapi\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|solutionrelative:controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\bankpaymentapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CEF279-6309-40C7-A80D-AFE81DA64D32}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\managers\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CEF279-6309-40C7-A80D-AFE81DA64D32}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\managers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CEF279-6309-40C7-A80D-AFE81DA64D32}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\managers\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\bankpaymentapi\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|solutionrelative:profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CEF279-6309-40C7-A80D-AFE81DA64D32}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\managers\\transfermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CDCBBE-7337-4F8A-9E4B-6C025D324F8B}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\interfaces\\imanager\\ipaymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CDCBBE-7337-4F8A-9E4B-6C025D324F8B}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\interfaces\\imanager\\itransfermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29095F7-0C97-4B0B-B686-51FEDE238B93}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\models\\dtos\\transferdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CDCBBE-7337-4F8A-9E4B-6C025D324F8B}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\interfaces\\imanager\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CDCBBE-7337-4F8A-9E4B-6C025D324F8B}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\interfaces\\imanager\\ibankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29095F7-0C97-4B0B-B686-51FEDE238B93}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\models\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CEF279-6309-40C7-A80D-AFE81DA64D32}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\managers\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\bankpaymentapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CDCBBE-7337-4F8A-9E4B-6C025D324F8B}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\interfaces\\imanager\\iauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29095F7-0C97-4B0B-B686-51FEDE238B93}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\models\\dtos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29095F7-0C97-4B0B-B686-51FEDE238B93}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\models\\dtos\\bankdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\bankpaymentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\bankpaymentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FAAE2DBE-73B3-4D65-A9C1-62FEFD103610}|BankPaymentAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CEF279-6309-40C7-A80D-AFE81DA64D32}|..\\Managers\\Managers.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\managers\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A29095F7-0C97-4B0B-B686-51FEDE238B93}|..\\Models\\Models.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\models\\dtos\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99CDCBBE-7337-4F8A-9E4B-6C025D324F8B}|..\\Interfaces\\Interfaces.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\interfaces\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71640EB1-33BF-4B01-B443-DDFC1BEB72BC}|..\\DataAccess\\DataAccess.csproj|c:\\users\\gunapatikavya\\desktop\\dotnet\\authentication\\bankpaymentapp\\dataaccess\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BankController.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Controllers\\BankController.cs",
+              "RelativeToolTip": "Controllers\\BankController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:44:49.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwFEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:37:51.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:26:31.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\PaymentManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\PaymentManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\PaymentManager.cs",
+              "RelativeToolTip": "..\\Managers\\PaymentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:46:04.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransferManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\TransferManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\TransferManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\TransferManager.cs",
+              "RelativeToolTip": "..\\Managers\\TransferManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:39:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\AccountManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\AccountManager.cs",
+              "RelativeToolTip": "..\\Managers\\AccountManager.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:08:40.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IPaymentManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IPaymentManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IPaymentManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IPaymentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:21:30.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\BankManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\BankManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\BankManager.cs",
+              "RelativeToolTip": "..\\Managers\\BankManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwFYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:00:07.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITransferManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\ITransferManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\ITransferManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\ITransferManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\ITransferManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:31:49.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Payment.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:57:24.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IAccountManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IAccountManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IAccountManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IAccountManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:22:02.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransferDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\TransferDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\TransferDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\TransferDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\TransferDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:04:02.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBankManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IBankManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IBankManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IBankManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IBankManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:22:14.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\TransactionDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\TransactionDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\TransactionDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\TransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:50:51.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\AuthManager.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\AuthManager.cs",
+              "RelativeToolTip": "..\\Managers\\AuthManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:39:44.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:45:11.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IAuthManager.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IManager\\IAuthManager.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IManager\\IAuthManager.cs",
+              "RelativeToolTip": "..\\Interfaces\\IManager\\IAuthManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:21:44.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Transaction.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:05:11.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BankDto.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\BankDto.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\BankDto.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\BankDto.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\BankDto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA4wCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:02:52.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\Register.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\Register.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\Register.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\Register.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:46:54.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:11:49.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\BankPaymentAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T09:09:25.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\Managers\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Managers\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\Managers\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:09:04.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\Result.cs",
+              "RelativeDocumentMoniker": "..\\Models\\DTOs\\Result.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Models\\DTOs\\Result.cs",
+              "RelativeToolTip": "..\\Models\\DTOs\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:07:52.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Account.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Account.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Account.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:14:41.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:13:38.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:05:08.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\Interfaces\\IRepository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:07:36.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Bank.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Bank.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Bank.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Bank.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:54:10.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "..\\DataAccess\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:11:35.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Transfer.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\Transfer.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\Transfer.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\Transfer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:07:11.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "..\\DataAccess\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:09:36.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Enums\\Enums.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Enums\\Enums.cs",
+              "ToolTip": "C:\\Users\\GunapatiKavya\\Desktop\\DotNet\\Authentication\\BankPaymentApp\\DataAccess\\Enums\\Enums.cs",
+              "RelativeToolTip": "..\\DataAccess\\Enums\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:13:03.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

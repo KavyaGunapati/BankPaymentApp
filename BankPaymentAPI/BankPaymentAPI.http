@@ -1,0 +1,6 @@
+@BankPaymentAPI_HostAddress = http://localhost:5120
+
+GET {{BankPaymentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
