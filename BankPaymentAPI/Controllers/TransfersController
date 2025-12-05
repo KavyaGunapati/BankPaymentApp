@@ -1,0 +1,39 @@
+
+using Interfaces.IManager;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Models.DTOs;
+using System.Security.Claims;
+
+[ApiController]
+[Route("api/transfers")]
+[Authorize]
+public class TransfersController : ControllerBase
+{
+    private readonly ITransferManager _manager;
+    public TransfersController(ITransferManager manager) => _manager = manager;
+
+    [HttpPost("intent")]
+    public async Task<ActionResult<Result<PaymentIntentResponseDto>>> CreateIntent([FromBody] CreateTransferIntentDto dto)
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier)!;
+        var result = await _manager.CreateTransferIntentAsync(userId, dto);
+        return result.Success?Ok(result):BadRequest(result);
+    }
+
+    public class ConfirmPaymentDto
+    {
+        public string PaymentIntentId { get; set; } = "";
+        public string PaymentMethodId { get; set; } = "";
+    }
+
+    [HttpPost("confirm")]
+    public async Task<ActionResult<Result<string>>> Confirm([FromBody] ConfirmPaymentDto dto)
+    {
+        var result = await (_manager as Managers.TransferManager)!.ConfirmPayment(dto.PaymentIntentId, dto.PaymentMethodId);
+        return result.Success ? Ok(result) : BadRequest(result);
+    }
+
+    
+}
+
