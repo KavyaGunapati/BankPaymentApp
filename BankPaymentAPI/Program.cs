@@ -43,6 +43,15 @@ builder.Services.AddAuthentication(options =>
     };
 });
 builder.Services.AddScoped<TokenService>();
+builder.Services.AddAutoMapper(typeof(MappingProfiles));
+builder.Services.AddScoped<IAccountManager,AccountManager>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(BaseRepository<>));
+builder.Services.AddScoped<IBankManager,BankManager>();
+builder.Services.AddScoped<IPaymentManager,PaymentManager>();
+builder.Services.AddScoped<ITransferManager,TransferManager>();
+builder.Services.AddScoped<IAuthManager,AuthManager>();
+var app = builder.Build();
+
 
 var app = builder.Build();
 
